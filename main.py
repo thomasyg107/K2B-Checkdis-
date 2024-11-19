@@ -261,4 +261,4 @@ async def on_ready():
 
 server_on()
 
-bot.run('TOKEN')
+bot.run(os.getenv('TOKEN'))
